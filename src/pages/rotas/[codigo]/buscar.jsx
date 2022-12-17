@@ -9,7 +9,9 @@ export default function Buscar() {
         <div>
             <h1>Rotas / {codigo} / Buscar!!!</h1>
             <Link href="/rotas">
-                <button>Voltar</button>
+                <a>
+                    <button>Voltar</button>
+                </a>
             </Link>
         </div>
     )

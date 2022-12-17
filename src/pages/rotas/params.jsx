@@ -12,7 +12,7 @@ export default function Params () {
     return (
         <div>
             <h1>Rotas Params: {id} e {nome}</h1>
-            <Link href="/rotas">
+            <Link href="/rotas" passHref>
                 <button>Voltar</button>
             </Link>
         </div>
